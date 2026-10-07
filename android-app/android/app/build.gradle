@@ -96,7 +96,7 @@ dependencies {
     implementation project(':capacitor-android')
     // FCM: push do aplikacji z tematów per województwo (serwer → topic → telefon).
     // BoM utrzymuje spójne wersje bibliotek Firebase.
-    implementation platform('com.google.firebase:firebase-bom:33.7.0')
+    implementation platform('com.google.firebase:firebase-bom:35.0.0')
     implementation 'com.google.firebase:firebase-messaging'
     // odbiór pushy przed pierwszym odblokowaniem po restarcie telefonu (audyt B6)
     implementation 'com.google.firebase:firebase-messaging-directboot'
